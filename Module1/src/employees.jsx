@@ -11,9 +11,6 @@ const element = (
     <li>{jeremy}</li>
     <li>{holly}</li>
     <li>{jack}</li>
-    <li>{ezra}</li>
-    <li>{jeremy}</li>
-    <li>{jack}</li>
   </ul>
 );
 ReactDOM.render(element, document.getElementById("root"));
