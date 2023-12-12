@@ -12,6 +12,7 @@ const element = (
     <li>{holly}</li>
     <li>{jack}</li>
     <li>{ezra}</li>
+    <li>{jeremy}</li>
   </ul>
 );
 ReactDOM.render(element, document.getElementById("root"));
