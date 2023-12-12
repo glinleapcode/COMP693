@@ -10,8 +10,6 @@ app.use(express.static("public"));
 app.get("/", (req, res) => {
   console.log(__dirname);
   res.sendFile("index.html", { root: "public" });
-  //   res.sendFile(path.join(__dirname, "public", "index.html"));
-  //   res.send("<h1>Hello World</h1>);
 });
 
 app.listen(5000, () => {
