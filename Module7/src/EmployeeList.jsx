@@ -59,8 +59,10 @@ function EmployeeTable({ employees, deleteEmployee }) {
   );
 }
 
+// use functional component and useState hook to add modal functionality
 function EmployeeRow({ employee, deleteEmployee }) {
   const [show, setShow] = useState(false);
+
   function showAlertModal() {
     setShow(true);
   }
